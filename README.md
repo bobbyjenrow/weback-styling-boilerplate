@@ -8,8 +8,14 @@ To remove the index.html file, simply comment out HTMLWebpackPlugin under webpac
 
 ### Build
 `npm run build`
-</br>
-note: also generates a styleguide through KSS
+
+note: also generates a styleguide through [KSS](https://github.com/kneath/kss).
 
 ### Run Dev Server
 `npm start`
+
+### Convert SCSS to CSS
+`sudo sh ./scripts/cscc-css.sh`
+
+### Convert CSS to SCSS
+`sudo sh ./scripts/css-scss.sh`
