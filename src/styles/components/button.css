@@ -1,0 +1,22 @@
+/*
+Buttons
+
+
+:hover             - Subtle hover highlight.
+.stars-given       - A highlight indicating you’ve already given a star.
+.stars-given:hover - Subtle hover highlight on top of stars-given styling.
+.disabled          - Dims the button to indicate it cannot be used.
+
+Markup:
+<button class="button button--primary">Button Primary</button>
+
+Styleguide 2.1
+*/
+
+.button{
+  padding: 1rem;
+}
+.button--primary{
+  color: white;
+  background-color: tomato;
+}

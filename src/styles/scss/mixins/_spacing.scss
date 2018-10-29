@@ -1,0 +1,22 @@
+// Padding helpers
+@mixin padding-x($value){
+  padding-right: $value;
+  padding-left: $value;
+}
+@mixin padding-y($value){
+  padding-top: $value;
+  padding-bottom: $value;
+}
+// Margin Helpers
+@mixin margin-x($value){
+  margin-right: $value;
+  margin-left: $value;
+}
+@mixin margin-y($value){
+  margin-top: $value;
+  margin-bottom: $value;
+}
+@mixin center-x($value){
+  margin: 0 auto;
+}
+// 

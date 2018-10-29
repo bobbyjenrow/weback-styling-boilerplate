@@ -1,1 +1,24 @@
+/*
+Overview
+
+This is a generic style guide
+
+Styleguide
+ */
+
+
+
+/*
+Base Settings
+
+Styleguide 1
+ */
+
 @import 'variables/*.css';
+
+/*
+Components
+
+Styleguide 2
+ */
+@import 'components/*.css';

@@ -1,0 +1,54 @@
+/*
+@styleguide
+
+@title Card
+
+Use the card classes on and `<article>` & `<div>` elements.
+
+<article class="card">
+  <div class="card__header">Card-Header</div>
+  <div class="card__footer">Card-Footer</div>
+</article>
+
+    <article class="card">
+      <div class="card-header">Card-Header</div>
+      <div class="card-footer">Card-Footer</div>
+    </article>
+
+*/
+
+.card {
+  width: 100%;
+  min-width: 300px;
+  padding: 1rem;
+  @include margin-x(.5rem);
+  border-radius: 2px;
+}
+.card--flush{
+  @extend .card;
+  @include margin-x(.5rem);
+}
+
+.card--center{
+  text-align: center;
+}
+.card--left{
+  text-align: left;
+}
+.card--right{
+  text-align: right;
+}
+
+.card__header{
+  width: 100%;
+  top: 0;
+  background-color: $accent;
+}
+.card__body{
+
+}
+.card__footer{
+  width: 100%;
+  bottom: 0;
+    background-color: $accent;
+}

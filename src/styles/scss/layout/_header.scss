@@ -1,0 +1,11 @@
+.header.container  {
+
+}
+.header__action-bar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 1px solid $brown;
+  border-bottom: 1px solid $brown;
+}

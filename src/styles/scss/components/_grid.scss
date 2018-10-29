@@ -1,0 +1,57 @@
+/*
+@styleguide
+
+@title Grid
+
+Use the card classes on and `<article>` & `<div>` elements.
+
+<section class="grid-container">
+  <div class="grid-item"><img src="https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d24ffc8384fa23776988663fddcee60&auto=format&fit=crop&w=1189&q=80" class='img-responsive'></div>
+  <div class="grid-item"><img src="https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d24ffc8384fa23776988663fddcee60&auto=format&fit=crop&w=1189&q=80" class='img-responsive'></div>
+  <div class="grid-item"><img src="https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d24ffc8384fa23776988663fddcee60&auto=format&fit=crop&w=1189&q=80" class='img-responsive'></div>
+  <div class="grid-item"><img src="https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d24ffc8384fa23776988663fddcee60&auto=format&fit=crop&w=1189&q=80" class='img-responsive'></div>
+  <div class="grid-item"><img src="https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d24ffc8384fa23776988663fddcee60&auto=format&fit=crop&w=1189&q=80" class='img-responsive'></div>
+  <div class="grid-item"><img src="https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d24ffc8384fa23776988663fddcee60&auto=format&fit=crop&w=1189&q=80" class='img-responsive'></div>
+  <div class="grid-item"><img src="https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d24ffc8384fa23776988663fddcee60&auto=format&fit=crop&w=1189&q=80" class='img-responsive'></div>
+  <div class="grid-item"><img src="https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d24ffc8384fa23776988663fddcee60&auto=format&fit=crop&w=1189&q=80" class='img-responsive'></div>
+</section>
+
+    <section class="grid-container">
+    <div class="grid-item"><img src="https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d24ffc8384fa23776988663fddcee60&auto=format&fit=crop&w=1189&q=80" class='img-responsive'></div>
+    <div class="grid-item"><img src="https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d24ffc8384fa23776988663fddcee60&auto=format&fit=crop&w=1189&q=80" class='img-responsive'></div>
+    <div class="grid-item"><img src="https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d24ffc8384fa23776988663fddcee60&auto=format&fit=crop&w=1189&q=80" class='img-responsive'></div>
+    <div class="grid-item"><img src="https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d24ffc8384fa23776988663fddcee60&auto=format&fit=crop&w=1189&q=80" class='img-responsive'></div>
+    <div class="grid-item"><img src="https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d24ffc8384fa23776988663fddcee60&auto=format&fit=crop&w=1189&q=80" class='img-responsive'></div>
+    <div class="grid-item"><img src="https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d24ffc8384fa23776988663fddcee60&auto=format&fit=crop&w=1189&q=80" class='img-responsive'></div>
+    <div class="grid-item"><img src="https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d24ffc8384fa23776988663fddcee60&auto=format&fit=crop&w=1189&q=80" class='img-responsive'></div>
+    <div class="grid-item"><img src="https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d24ffc8384fa23776988663fddcee60&auto=format&fit=crop&w=1189&q=80" class='img-responsive'></div>
+    </section>
+
+*/
+
+.grid-container{
+
+}
+.grid-row{
+
+}
+.grid-col{
+
+}
+
+@supports (display: grid){
+  .grid-container{
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .grid-item{
+    max-height: 200px;
+    overflow: hidden;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

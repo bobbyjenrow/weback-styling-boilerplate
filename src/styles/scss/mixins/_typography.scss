@@ -1,0 +1,12 @@
+@mixin font-scaling($font-scale){
+  @each $key, $value in $font-scale{
+    // Generates font size classes
+    .f#{$key}{
+      font-size: #{$value};
+    }
+    // Generate sizes for headings
+    h#{$key}{
+      font-size: #{$value};
+    }
+  }
+}

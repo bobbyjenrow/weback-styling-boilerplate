@@ -4,6 +4,10 @@ const config = require('./config.js');
 const devMode = process.env.NODE_ENV || 'development';
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const KssWebpackPlugin = require('kss-webpack-plugin');
+const KssConfig = {
+  source: paths.dist.styles
+};
 // const HtmlWebpackIncludeAssetsPlugin = require('html-webpack-include-assets-plugin');
 
 
@@ -22,8 +26,9 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'styles/[name].css'
+      filename: 'styles/styles.css'
     }),
+    new KssWebpackPlugin(KssConfig),
     new HtmlWebpackPlugin({
       title: config.app.title,
       meta: {
@@ -47,7 +52,7 @@ module.exports = {
           {loader: 'css-loader', options: {importLoaders: 1}},
           {loader: 'import-glob-loader'},
           {loader: 'postcss-loader', options: {sourcemap:true}},
-          // {loader: 'sass-loader'}, // Enable For Sass
+          {loader: 'sass-loader'}, // Enable For Sass
         ]
       }
     ]

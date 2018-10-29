@@ -1,0 +1,94 @@
+/*
+Colors
+
+Styleguide 1.1
+ */
+
+:root{
+  --red: tomato;
+  --blue: rebeccapurple;
+}
+body{
+  background-color: var(--red);
+  color: var(--blue);
+}
+
+/*
+Typography
+
+Styleguide 1.2
+ */
+
+:root{
+  --font-family: Arial, sans-serf;
+  --font-size: 16px;
+  --font-color: black;
+}
+body{
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+}
+
+/*
+Buttons
+
+
+:hover             - Subtle hover highlight.
+.stars-given       - A highlight indicating you’ve already given a star.
+.stars-given:hover - Subtle hover highlight on top of stars-given styling.
+.disabled          - Dims the button to indicate it cannot be used.
+
+Markup:
+<button class="button button--primary">Button Primary</button>
+
+Styleguide 2.1
+*/
+
+.button{
+  padding: 1rem;
+}
+.button--primary{
+  color: white;
+  background-color: tomato;
+}
+
+/*
+Cards
+
+Styleguide 2.2
+ */
+
+/*
+Form Components
+
+Styleguide 2.3
+ */
+
+/*
+Navs
+
+Styleguide 2.4
+ */
+
+/*
+Overview
+
+This is a generic style guide
+
+Styleguide
+ */
+
+
+
+/*
+Base Settings
+
+Styleguide 1
+ */
+
+/*
+Components
+
+Styleguide 2
+ */
+

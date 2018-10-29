@@ -1,0 +1,27 @@
+html{
+  font-size: $base-font-size;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  @include font-scaling($font-scale);
+  p,a {
+    font-weight: $font-weight-light;
+  }
+  a{
+    text-decoration: none;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-weight: $font-weight-heavy;
+  }
+  color: $font;
+  font-family: $font-family-base;
+}
+
+li{
+  list-style: none;
+}

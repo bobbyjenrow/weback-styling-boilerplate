@@ -1,0 +1,15 @@
+.font--primary{
+  color: $primary;
+}
+.font--accent{
+  color: $accent;
+}
+.font-weight--light{
+  font-weight: $font-weight-light !important;
+}
+.font-weight--heavy{
+  font-weight: $font-weight-heavy !important;
+}
+.p-lead{
+  @extend .f3;
+}

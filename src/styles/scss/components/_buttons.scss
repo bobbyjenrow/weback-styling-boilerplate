@@ -1,0 +1,61 @@
+/*
+@styleguide
+
+@title Button
+
+Use the button classes on and `<a>`, `<button>`, `<input>` elements.
+
+<button class="button button--primary">primary Button</button>
+<button class="button button--accent">accent Button</button>
+
+    <button class="button button--large button--primary">primary Button</button>
+    <button class="button button--large button--accent">accent Button</button>
+
+<button class="button button--lg button--accent">large accent Button</button>
+<button class="button button--lg button--primary">large primary Button</button>
+
+    <button class="button button--lg button--accent">large accent Button</button>
+    <button class="button button--lg button--primary">large primary Button</button>
+*/
+.button {
+    border-radius: $button-border-radius-default;
+    cursor: pointer;
+    font-weight: $button-font-weight;
+    text-transform: uppercase;
+    font-size: $button-font-size-default;
+    color: $white;
+    font-weight: $button-font-weight;
+    @include padding-x($button-padding-x-default);
+    @include padding-y($button-padding-y-default);
+    transition: $default-transition;
+}
+
+.button--lg {
+    font-size: map-get($font-scale, '3');
+    @include padding-x($button-padding-x-lg);
+    @include padding-y($button-padding-y-lg);
+}
+
+.button--accent {
+    color: #fff;
+    background-color: $accent;
+    border: 3px solid transparent;
+    &:hover{
+      background-color: $white;
+      color: $accent;
+      border: 3px solid $accent;
+
+    }
+}
+
+.button--primary {
+    color: #fff;
+    background-color: $primary;
+    border: 3px solid transparent;
+    &:hover{
+      background-color: $white;
+      color: $primary;
+      border: 3px solid $primary;
+
+    }
+}

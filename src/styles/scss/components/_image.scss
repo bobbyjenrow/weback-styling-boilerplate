@@ -1,0 +1,30 @@
+/*
+@styleguide
+
+@title Image
+
+Use it on an img tag.
+
+<a class="img-link-wrapper">
+  <img class="img-responsive">
+</a>
+
+    <a class="img-link-wrapper">
+      <img class="img-responsive">
+    </a>
+
+*/
+.img-link-wrapper{
+  display: block;
+}
+.img-responsive{
+  display: block;
+  width: auto;
+  height: auto;
+}
+.img__caption-overlay{
+
+}
+.img__caption-below{
+
+}

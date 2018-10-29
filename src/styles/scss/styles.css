@@ -1,0 +1,72 @@
+// Import Base, Variables
+@import './variables/colors';
+@import './variables/typography';
+@import './variables/theme';
+@import './variables/layout';
+@import './variables/components';
+@import './variables/misc';
+//
+// // Import Mixins and Functions
+@import './mixins/*';
+@import './base/normalize';
+@import './base/init';
+//
+@import './layout/*';
+//
+// // Import Components
+@import './components/*';
+@import './utilities/*';
+/*
+@styleguide
+
+@title Card
+
+Use the card classes on and `<article>` & `<div>` elements.
+
+<article class="card">
+  <div class="card__header">Card-Header</div>
+  <div class="card__footer">Card-Footer</div>
+</article>
+
+    <article class="card">
+      <div class="card-header">Card-Header</div>
+      <div class="card-footer">Card-Footer</div>
+    </article>
+
+*/
+
+.card {
+  width: 100%;
+  min-width: 300px;
+  overflow: hidden;
+  border-radius: 2px;
+  padding: 1rem;
+
+}
+.card--flush{
+  @extend .card;
+}
+
+.card--center{
+  text-align: center;
+}
+.card--left{
+  text-align: left;
+}
+.card--right{
+  text-align: right;
+}
+
+.card__header{
+  width: 100%;
+  top: 0;
+  background-color: tomato;
+}
+.card__body{
+
+}
+.card__footer{
+  width: 100%;
+  bottom: 0;
+  background-color: rebeccapurple;
+}
