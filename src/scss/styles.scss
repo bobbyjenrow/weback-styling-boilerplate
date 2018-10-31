@@ -1,3 +1,9 @@
+/*
+Overview
+
+Styleguide 1
+ */
+
 // Import Base, Variables
 @import './variables/colors';
 @import './variables/typography';
@@ -7,15 +13,17 @@
 @import './variables/misc';
 //
 // // Import Mixins and Functions
-@import './mixins/*';
+@import './mixins/layout';
+@import './mixins/spacing';
+@import './mixins/typography';
 @import './base/normalize';
 @import './base/init';
 //
-@import './layout/*';
+// @import './layout/*';
 //
 // // Import Components
-@import './components/*';
-@import './utilities/*';
+// @import './components/*';
+// @import './utilities/*';
 /*
 @styleguide
 

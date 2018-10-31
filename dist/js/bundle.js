@@ -93,18 +93,18 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var styles = __webpack_require__(/*! ../styles/styles.css */ \"./src/styles/styles.css\");\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("var styles = __webpack_require__(/*! ../scss/styles.scss */ \"./src/scss/styles.scss\");\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ }),
 
-/***/ "./src/styles/styles.css":
-/*!*******************************!*\
-  !*** ./src/styles/styles.css ***!
-  \*******************************/
+/***/ "./src/scss/styles.scss":
+/*!******************************!*\
+  !*** ./src/scss/styles.scss ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/styles/styles.css?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/scss/styles.scss?");
 
 /***/ })
 

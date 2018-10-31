@@ -1,94 +1,103 @@
-/*
-Colors
-
-Styleguide 1.1
- */
-
-:root{
-  --red: tomato;
-  --blue: rebeccapurple;
-}
-body{
-  background-color: var(--red);
-  color: var(--blue);
-}
-
-/*
-Typography
-
-Styleguide 1.2
- */
-
-:root{
-  --font-family: Arial, sans-serf;
-  --font-size: 16px;
-  --font-color: black;
-}
-body{
-  font-size: var(--font-size);
-  font-family: var(--font-family);
-}
-
-/*
-Buttons
-
-
-:hover             - Subtle hover highlight.
-.stars-given       - A highlight indicating you’ve already given a star.
-.stars-given:hover - Subtle hover highlight on top of stars-given styling.
-.disabled          - Dims the button to indicate it cannot be used.
-
-Markup:
-<button class="button button--primary">Button Primary</button>
-
-Styleguide 2.1
-*/
-
-.button{
-  padding: 1rem;
-}
-.button--primary{
-  color: white;
-  background-color: tomato;
-}
-
-/*
-Cards
-
-Styleguide 2.2
- */
-
-/*
-Form Components
-
-Styleguide 2.3
- */
-
-/*
-Navs
-
-Styleguide 2.4
- */
-
+@import url(https://use.typekit.net/ytm0raf.css);
 /*
 Overview
 
-This is a generic style guide
-
-Styleguide
- */
-
-
-
-/*
-Base Settings
-
 Styleguide 1
  */
+html {
+  font-size: 16px;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #5e4f4b;
+  font-family: gill-sans-nova, sans-serif; }
+  body .fh {
+    font-size: 5rem; }
+  body hh {
+    font-size: 5rem; }
+  body .fs {
+    font-size: 4rem; }
+  body hs {
+    font-size: 4rem; }
+  body .f1 {
+    font-size: 3rem; }
+  body h1 {
+    font-size: 3rem; }
+  body .f2 {
+    font-size: 2.4rem; }
+  body h2 {
+    font-size: 2.4rem; }
+  body .f3 {
+    font-size: 1.8rem; }
+  body h3 {
+    font-size: 1.8rem; }
+  body .f4 {
+    font-size: 1.2rem; }
+  body h4 {
+    font-size: 1.2rem; }
+  body .f5 {
+    font-size: 1rem; }
+  body h5 {
+    font-size: 1rem; }
+  body .f6 {
+    font-size: 0.67rem; }
+  body h6 {
+    font-size: 0.67rem; }
+  body p, body a {
+    font-weight: 300; }
+  body a {
+    text-decoration: none; }
+    body a:hover {
+      text-decoration: none; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-weight: 600; }
+
+li {
+  list-style: none; }
 
 /*
-Components
+@styleguide
 
-Styleguide 2
- */
+@title Card
+
+Use the card classes on and `<article>` & `<div>` elements.
+
+<article class="card">
+  <div class="card__header">Card-Header</div>
+  <div class="card__footer">Card-Footer</div>
+</article>
+
+    <article class="card">
+      <div class="card-header">Card-Header</div>
+      <div class="card-footer">Card-Footer</div>
+    </article>
+
+*/
+.card, .card--flush {
+  width: 100%;
+  min-width: 300px;
+  overflow: hidden;
+  border-radius: 2px;
+  padding: 1rem; }
+
+.card--center {
+  text-align: center; }
+
+.card--left {
+  text-align: left; }
+
+.card--right {
+  text-align: right; }
+
+.card__header {
+  width: 100%;
+  top: 0;
+  background-color: tomato; }
+
+.card__footer {
+  width: 100%;
+  bottom: 0;
+  background-color: rebeccapurple; }
 
