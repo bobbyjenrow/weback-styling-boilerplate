@@ -1,1 +1,1 @@
-const styles = require('../styles/styles.css')
+const styles = require('../scss/main.scss')

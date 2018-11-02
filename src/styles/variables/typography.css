@@ -1,9 +1,0 @@
-:root{
-  --font-family: Arial, sans-serf;
-  --font-size: 16px;
-  --font-color: black;
-}
-body{
-  font-size: var(--font-size);
-  font-family: var(--font-family);
-}
