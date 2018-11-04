@@ -28,7 +28,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({filename: 'css/[name].css'}),
-    new KssWebpackPlugin(kssConfig),
+    // new KssWebpackPlugin(kssConfig),
     new BrowserSyncPlugin(browserSyncConfig)
   ],
   module: {
@@ -55,9 +55,10 @@ module.exports = {
       { test: /\.(sa|sc|c)ss$/,
         use: [
           {loader: MiniCssExtractPlugin.loader},
-          {loader: 'css-loader', options: {importLoaders: 1}},
-          {loader: 'postcss-loader', options: {sourcemap:true}},
-          {loader: 'sass-loader'}, // Enable For Sass
+          {loader: 'css-loader'},
+          // 'postcss-loader',
+          {loader: 'sass-loader', options: {includePaths: [path.resolve(__dirname,'node_modules')]}}, // Enable For Sass
+          // {loader: 'import-glob-loader', options: {includePaths: ['node_modules']}}
         ]
       }
     ]
