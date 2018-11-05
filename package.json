@@ -17,7 +17,9 @@
   "dependencies": {
     "jquery": "^3.3.1",
     "mappy-breakpoints": "^0.2.3",
-    "sassy-gridlover": "^5.2.1"
+    "modularscale-sass": "^3.0.8",
+    "sassy-gridlover": "^5.2.1",
+    "typi": "^3.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",

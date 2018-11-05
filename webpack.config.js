@@ -5,6 +5,7 @@ const devMode = process.env.NODE_ENV || 'development';
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 const KssWebpackPlugin = require('kss-webpack-plugin');
+const HTMLWebpackPlugin = require('html-webpack-plugin');
 const kssConfig = {
   source: paths.dist.styles
 };
@@ -21,7 +22,7 @@ module.exports = {
     filename: 'js/bundle.js'
   },
   devServer: {
-    contentBase: paths.dist.styleguide,
+    contentBase: paths.dist,
     compress: true,
     hot: true,
     port: 9000
@@ -29,6 +30,7 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin({filename: 'css/[name].css'}),
     // new KssWebpackPlugin(kssConfig),
+    new HTMLWebpackPlugin({template: 'src/index.html'}),
     new BrowserSyncPlugin(browserSyncConfig)
   ],
   module: {

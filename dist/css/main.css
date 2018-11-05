@@ -307,9 +307,13 @@ Components
  Components
 Styleguide 2.
 */
+.d1, .d2, .d3, .d4, .d5, .d6, .d7 {
+  font-weight: 300; }
+
+.h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6, .h7, h7 {
+  font-weight: 600; }
+
 html {
-  font-size: 16px;
-  line-height: 320px;
   box-sizing: border-box; }
 
 *,
@@ -318,37 +322,250 @@ html {
   box-sizing: inherit; }
 
 body {
-  font-size: 16px;
-  line-height: 320px;
   color: black;
   font-family: Arial, sans-serf;
   font-weight: 300; }
 
-h1, .t1 {
-  font-size: 68px;
-  line-height: 320px;
-  margin-bottom: 640px;
-  margin-top: 320px; }
+.mx1 {
+  margin-top: 16.8px;
+  margin-bottom: 16.8px; }
+  @media (min-width: 400px) and (max-width: 900px) {
+    .mx1 {
+      margin-top: calc( 16.8px + 4 * ( ( 100vw - 400px) / 500 )); } }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .mx1 {
+      margin-top: calc( 20.8px + 4.4 * ( ( 100vw - 900px) / 300 )); } }
+  @media (min-width: 1200px) {
+    .mx1 {
+      margin-top: 25.2px; } }
+  @media (min-width: 400px) and (max-width: 900px) {
+    .mx1 {
+      margin-bottom: calc( 16.8px + 4 * ( ( 100vw - 400px) / 500 )); } }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .mx1 {
+      margin-bottom: calc( 20.8px + 4.4 * ( ( 100vw - 900px) / 300 )); } }
+  @media (min-width: 1200px) {
+    .mx1 {
+      margin-bottom: 25.2px; } }
 
-h2, .t2 {
-  font-size: 42px;
-  line-height: 320px;
-  margin-bottom: 320px;
-  margin-top: 320px; }
+.h1, h1 {
+  font-size: 34.83648px; }
+  @media (min-width: 400px) and (max-width: 900px) {
+    .h1, h1 {
+      font-size: calc( 34.83648px + 24.5704 * ( ( 100vw - 400px) / 500 )); } }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .h1, h1 {
+      font-size: calc( 59.40688px + 37.40144 * ( ( 100vw - 900px) / 300 )); } }
+  @media (min-width: 1200px) {
+    .h1, h1 {
+      font-size: 96.80832px; } }
 
-h3, .t3 {
-  font-size: 26px;
-  line-height: 320px;
-  margin-bottom: 0px;
-  margin-top: 320px; }
+.d1 {
+  font-size: 34.83648px; }
+  @media (min-width: 400px) and (max-width: 900px) {
+    .d1 {
+      font-size: calc( 34.83648px + 24.5704 * ( ( 100vw - 400px) / 500 )); } }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .d1 {
+      font-size: calc( 59.40688px + 37.40144 * ( ( 100vw - 900px) / 300 )); } }
+  @media (min-width: 1200px) {
+    .d1 {
+      font-size: 96.80832px; } }
 
-h4, .s1, h5, .s2, h6, .s3 {
-  font-size: 16px;
-  line-height: 320px;
-  margin-bottom: 0px;
-  margin-top: 320px; }
+.h2, h2 {
+  font-size: 29.0304px; }
+  @media (min-width: 400px) and (max-width: 900px) {
+    .h2, h2 {
+      font-size: calc( 29.0304px + 16.6672 * ( ( 100vw - 400px) / 500 )); } }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .h2, h2 {
+      font-size: calc( 45.6976px + 23.4512 * ( ( 100vw - 900px) / 300 )); } }
+  @media (min-width: 1200px) {
+    .h2, h2 {
+      font-size: 69.1488px; } }
 
-p, .t0, ul, ol, pre, table, blockquote, code {
-  margin-bottom: 320px;
-  margin-top: 0; }
+.d2 {
+  font-size: 29.0304px; }
+  @media (min-width: 400px) and (max-width: 900px) {
+    .d2 {
+      font-size: calc( 29.0304px + 16.6672 * ( ( 100vw - 400px) / 500 )); } }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .d2 {
+      font-size: calc( 45.6976px + 23.4512 * ( ( 100vw - 900px) / 300 )); } }
+  @media (min-width: 1200px) {
+    .d2 {
+      font-size: 69.1488px; } }
+
+.h3, h3 {
+  font-size: 24.192px; }
+  @media (min-width: 400px) and (max-width: 900px) {
+    .h3, h3 {
+      font-size: calc( 24.192px + 10.96 * ( ( 100vw - 400px) / 500 )); } }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .h3, h3 {
+      font-size: calc( 35.152px + 14.24 * ( ( 100vw - 900px) / 300 )); } }
+  @media (min-width: 1200px) {
+    .h3, h3 {
+      font-size: 49.392px; } }
+
+.d3 {
+  font-size: 24.192px; }
+  @media (min-width: 400px) and (max-width: 900px) {
+    .d3 {
+      font-size: calc( 24.192px + 10.96 * ( ( 100vw - 400px) / 500 )); } }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .d3 {
+      font-size: calc( 35.152px + 14.24 * ( ( 100vw - 900px) / 300 )); } }
+  @media (min-width: 1200px) {
+    .d3 {
+      font-size: 49.392px; } }
+
+.h4, h4 {
+  font-size: 20.16px; }
+  @media (min-width: 400px) and (max-width: 900px) {
+    .h4, h4 {
+      font-size: calc( 20.16px + 6.88 * ( ( 100vw - 400px) / 500 )); } }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .h4, h4 {
+      font-size: calc( 27.04px + 8.24 * ( ( 100vw - 900px) / 300 )); } }
+  @media (min-width: 1200px) {
+    .h4, h4 {
+      font-size: 35.28px; } }
+
+.d4 {
+  font-size: 20.16px; }
+  @media (min-width: 400px) and (max-width: 900px) {
+    .d4 {
+      font-size: calc( 20.16px + 6.88 * ( ( 100vw - 400px) / 500 )); } }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .d4 {
+      font-size: calc( 27.04px + 8.24 * ( ( 100vw - 900px) / 300 )); } }
+  @media (min-width: 1200px) {
+    .d4 {
+      font-size: 35.28px; } }
+
+.h5, h5 {
+  font-size: 16.8px; }
+  @media (min-width: 400px) and (max-width: 900px) {
+    .h5, h5 {
+      font-size: calc( 16.8px + 4 * ( ( 100vw - 400px) / 500 )); } }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .h5, h5 {
+      font-size: calc( 20.8px + 4.4 * ( ( 100vw - 900px) / 300 )); } }
+  @media (min-width: 1200px) {
+    .h5, h5 {
+      font-size: 25.2px; } }
+
+.d5 {
+  font-size: 16.8px; }
+  @media (min-width: 400px) and (max-width: 900px) {
+    .d5 {
+      font-size: calc( 16.8px + 4 * ( ( 100vw - 400px) / 500 )); } }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .d5 {
+      font-size: calc( 20.8px + 4.4 * ( ( 100vw - 900px) / 300 )); } }
+  @media (min-width: 1200px) {
+    .d5 {
+      font-size: 25.2px; } }
+
+.h6, h6 {
+  font-size: 11.66667px; }
+  @media (min-width: 400px) and (max-width: 900px) {
+    .h6, h6 {
+      font-size: calc( 11.66667px + 0.64103 * ( ( 100vw - 400px) / 500 )); } }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .h6, h6 {
+      font-size: calc( 12.30769px + 0.54945 * ( ( 100vw - 900px) / 300 )); } }
+  @media (min-width: 1200px) {
+    .h6, h6 {
+      font-size: 12.85714px; } }
+
+.d6 {
+  font-size: 11.66667px; }
+  @media (min-width: 400px) and (max-width: 900px) {
+    .d6 {
+      font-size: calc( 11.66667px + 0.64103 * ( ( 100vw - 400px) / 500 )); } }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .d6 {
+      font-size: calc( 12.30769px + 0.54945 * ( ( 100vw - 900px) / 300 )); } }
+  @media (min-width: 1200px) {
+    .d6 {
+      font-size: 12.85714px; } }
+
+.h7, h7 {
+  font-size: 9.72222px; }
+  @media (min-width: 400px) and (max-width: 900px) {
+    .h7, h7 {
+      font-size: calc( 9.72222px + -0.25477 * ( ( 100vw - 400px) / 500 )); } }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .h7, h7 {
+      font-size: calc( 9.46746px + -0.28378 * ( ( 100vw - 900px) / 300 )); } }
+  @media (min-width: 1200px) {
+    .h7, h7 {
+      font-size: 9.18367px; } }
+
+.d7 {
+  font-size: 9.72222px; }
+  @media (min-width: 400px) and (max-width: 900px) {
+    .d7 {
+      font-size: calc( 9.72222px + -0.25477 * ( ( 100vw - 400px) / 500 )); } }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .d7 {
+      font-size: calc( 9.46746px + -0.28378 * ( ( 100vw - 900px) / 300 )); } }
+  @media (min-width: 1200px) {
+    .d7 {
+      font-size: 9.18367px; } }
+
+/*
+Buttons
+* As a best practice, we highly recommend using the `<button>` element whenever possible to ensure matching cross-browser rendering.
+* While button classes can be used on `<a>` and `<button>` elements, only `<button>` elements are supported within our nav and navbar components.
+* You may use `.active` on `<button>`s should you need to replicate the active state programmatically.
+Styleguide 1.7
+*/
+/*
+Options
+Use any of the available button classes to quickly create a styled button.
+Markup:
+<button type="button" class="btn btn-default">Default</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-link">Link</button>
+Styleguide 1.7.1
+*/
+a {
+  text-decoration: none;
+  color: tomato;
+  transition: transition(slow); }
+  a:hover {
+    color: #ff6549; }
+  a:visited {
+    color: #ff6145; }
+
+h1, h2, h3, h4, h5, h6,
+.t1, .t2, .t3, .s1, .s2, .s3 {
+  color: color(h, tomato); }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: _s(3)/-2;
+  margin-right: _s(3)/-2; }
+
+.col {
+  box-sizing: border-box;
+  margin-left: _s(3)/2;
+  margin-right: _s(3)/2;
+  flex-basis: auto; }
 
