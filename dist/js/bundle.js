@@ -104,18 +104,18 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./node
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var normalize = __webpack_require__(/*! normalize.css */ \"./node_modules/normalize.css/normalize.css\");\n\nvar styles = __webpack_require__(/*! ../sass/main.scss */ \"./src/sass/main.scss\");\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("var normalize = __webpack_require__(/*! normalize.css */ \"./node_modules/normalize.css/normalize.css\");\n\nvar styles = __webpack_require__(/*! ../scss/main.scss */ \"./src/scss/main.scss\");\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ }),
 
-/***/ "./src/sass/main.scss":
+/***/ "./src/scss/main.scss":
 /*!****************************!*\
-  !*** ./src/sass/main.scss ***!
+  !*** ./src/scss/main.scss ***!
   \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/sass/main.scss?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/scss/main.scss?");
 
 /***/ })
 
